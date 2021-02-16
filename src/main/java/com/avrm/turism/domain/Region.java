@@ -2,6 +2,7 @@ package com.avrm.turism.domain;
 
 /**
  * Enumeration of the region of California.
+ *
  */
 public enum Region {
 
