@@ -13,7 +13,7 @@ public enum Region {
 
     private String label;
 
-    Region(String label) {
+    private Region(String label) {
         this.label = label;
     }
 
@@ -25,4 +25,7 @@ public enum Region {
         return null;
     }
 
+    public String getLabel() {
+        return label;
+    }
 }
